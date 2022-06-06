@@ -1,0 +1,1 @@
+# blog-django-basic-app
