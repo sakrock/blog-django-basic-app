@@ -71,6 +71,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'myInkleBlog.wsgi.application'
 
+REST_FRAMEWORK = {
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.LimitOffsetPagination',
+    'PAGE_SIZE': 20
+}
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
